@@ -10,7 +10,7 @@ Uma simples e pequena biblioteca Node.js que extrai links de um texto em formato
 
 - Execute <code>npm run cli arg1 arg2</code> no terminal;
 - Onde no lugar de "arg1" você irá especificar o caminho do arquivo com extensão .md que você deseja percorrer; E no lugar de "arg2" você irá digitar "validar", se desejar que os links, caso encontrados, sejam validados.
-- Lembrando que o "arg2" é opcional!
+- Lembrando que o "arg2" é opcional! E irá retornar <code>status code</code>: 200, caso os links forem validados e encontrados com êxito.
 
 <img src="https://user-images.githubusercontent.com/8989346/136876224-bac0a91f-63a8-45ea-b5fc-6618bddf2335.gif" width="850px">
 
